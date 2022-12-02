@@ -1,5 +1,5 @@
 # Part one: find the elf carrying the most calories.
-myFile = open(r'C:\Users\Ben\source\repos\bed-advent-of-code-2022\01_input.txt', 'r')
+myFile = open(r'01_input.txt', 'r')
 curMax = 0
 curTotal = 0
 line = ""
@@ -19,7 +19,7 @@ print("The elf carrying the most calories has " + str(curMax) +
       " calories in his pack.")
 
 # Part two: find the three elves carrying the most calories.
-myFile = open(r'C:\Users\Ben\source\repos\bed-advent-of-code-2022\01_input.txt', 'r')
+myFile = open(r'01_input.txt', 'r')
 weightList = []
 curTotal = 0
 line = ""
