@@ -3,7 +3,6 @@ def find_n_unique(data, numUnique):
     charArray = []
     totLength = 0
     curIndex = 0
-    uniqueCharCounter = 0
     while(curIndex < len(data)):
 	    charArray.append(data[curIndex])
 	    if len(charArray) > numUnique:
