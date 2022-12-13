@@ -152,7 +152,7 @@ def part_two():
         try:
             shortestDistances.append(runDijkstra(nodes, distances, i, E))
         except:
-            print(i + " didn't finish properly")
+            print(i + " no shortest path to end")
     print(min(shortestDistances))
 
 
