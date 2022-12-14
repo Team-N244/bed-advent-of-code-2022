@@ -1,5 +1,4 @@
 
-
 def part_one():
     myFile = open('12_input.txt')
     lines = []
@@ -71,6 +70,7 @@ def part_one():
 
     print(visited[E])
 
+
 def runDijkstra(nodes, distances, S, E):
     visited = {}
     unvisited = {}
@@ -95,6 +95,7 @@ def runDijkstra(nodes, distances, S, E):
         current, currentDistance = sorted(candidates, key=lambda x: x[1])[0]
 
     return visited[E]
+
 
 def part_two():
     myFile = open('12_input.txt')
